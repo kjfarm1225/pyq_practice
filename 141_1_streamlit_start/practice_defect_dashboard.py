@@ -19,13 +19,19 @@ selected_site = st.selectbox("拠点を選択してください", site_list)
 filtered_df = df[df["site"] == selected_site]
 st.subheader("選択した拠点の品質データ")
 st.dataframe(filtered_df)
+if filtered_df.empty:
+    st.warning("選択した拠点にデータがありません。別の拠点を選択してください。")
 
 total_production = filtered_df["production"].sum()
 total_defects = filtered_df["defects"].sum()
-average_ppm = (total_defects / total_production * 1000000).round(1)
 
 st.subheader("集計結果")
 
-st.write(f"総生産数:{total_production}")
-st.write(f"総不具合数:{total_defects}件")
-st.write(f"平均ppm:{average_ppm}")
+st.write(f"総生産数: {total_production}")
+st.write(f"総不具合数: {total_defects}件")
+
+if total_production > 0:
+    average_ppm = (total_defects / total_production * 1000000).round(1)
+    st.write(f"平均ppm: {average_ppm}")
+else:
+    st.write("平均ppm: データが不足しています（総生産数が0件）")
