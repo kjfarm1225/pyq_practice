@@ -62,3 +62,11 @@ elif latest_ppm >= 3000:
     st.warning("注意レベル：やや高めです。傾向確認をおすすめします。")
 else:
     st.success("注意レベル：低いです。大きな問題はなさそうです。")
+
+if st.button("詳細データを表示"):
+    st.subheader("選択した拠点の詳細データ")
+    st.dataframe(filtered_df)
+
+if st.button("全データを表示"):
+    st.subheader("全拠点の品質データ")
+    st.dataframe(df)
