@@ -26,3 +26,6 @@ dc = {
 kind = st.selectbox("グラフの種類", list(dc))
 
 dc[kind](chart_df)
+
+if st.checkbox("元データを表示する"):
+    st.dataframe(df)
