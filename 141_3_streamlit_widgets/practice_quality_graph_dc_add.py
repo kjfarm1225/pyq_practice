@@ -4,13 +4,14 @@ import streamlit as st
 df = pd.DataFrame({
     "month": ["1月", "2月", "3月", "4月", "5月", "6月"],
     "production": [1000, 1200, 1150, 1300, 1250, 1400],
-    "defects": [2, 5, 3, 9, 4,10],
+    "defects": [2, 5, 3, 9, 4, 6],
 })
 
-df["ppm"] = (df["defects"]  / df["production"] * 1000000).round(1)
+df["ppm"] = (df["defects"] / df["production"] * 1000000).round(1)
 
 st.title("品質グラフ選択アプリ")
-st.write("グラフの種別を選んで、月別のppmを確認します。")
+
+st.write("選択ボックスでグラフの種類を切り替えます")
 
 chart_df = df.set_index("month")[["ppm"]]
 
@@ -18,9 +19,10 @@ dc = {
     "折れ線グラフ": st.line_chart,
     "棒グラフ": st.bar_chart,
     "面グラフ": st.area_chart,
+    "散布図": lambda data: st.scatter_chart(df, x="production", y="defects"),
 }
 
-kind = st.selectbox("グラフの種類", list(dc))
+kind  = st.selectbox("グラフの種類", list(dc))
 
 dc[kind](chart_df)
 
