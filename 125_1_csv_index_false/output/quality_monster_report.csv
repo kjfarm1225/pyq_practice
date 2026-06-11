@@ -1,4 +1,4 @@
-data,site,defect,production,defects,ppm,判定
+date,site,defect,production,defects,ppm,判定
 2026/06/01,MELMB,点灯不良,10000,3,300.0,通常モンスター
 2026/06/01,WSE,外観不良,8000,5,625.0,通常モンスター
 2026/06/02,GSE,ショート,12000,1,83.3,通常モンスター
