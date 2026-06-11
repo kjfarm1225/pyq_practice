@@ -1,0 +1,5 @@
+site	product	defect	count
+MELMB	LCM-A	点灯不良	3
+WSE	LCM-B	外観不良	5
+GSE	LCM-C	ショート	1
+ISE	LCM-D	コネクタ浮き	2
