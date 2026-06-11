@@ -1,0 +1,5 @@
+site,defect,production,defects,ppm
+melmb,点灯不良,10000,3,300.0
+wse,外観不良,8000,5,625.0
+gse,ショート,12000,1,83.3
+ise,コネクタ浮き,9000,2,222.2
