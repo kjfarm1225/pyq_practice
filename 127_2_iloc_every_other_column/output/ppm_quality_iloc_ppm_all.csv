@@ -1,0 +1,5 @@
+﻿month,product,melmb_ppm,wse_ppm,gse_ppm,max_ppm,worst_site,危険ランク
+2026-06,Lamp-B,470.6,714.3,3000.0,3000.0,gse_ppm,s級
+2026-07,Lamp-C,888.9,3000.0,576.9,3000.0,wse_ppm,s級
+2026-07,Lamp-A,2727.3,1052.6,888.9,2727.3,melmb_ppm,s級
+2026-06,Lamp-A,1500.0,2500.0,500.0,2500.0,wse_ppm,s級
