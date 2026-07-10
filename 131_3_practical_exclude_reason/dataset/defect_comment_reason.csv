@@ -1,0 +1,13 @@
+﻿defect_id,site,model,occ_month,defect_category,comment
+D001,SUS,J69P,2026-04,NTF,市場返却品を確認したが不具合再現せず
+D002,SUS,J69P,2026-04,Buck-IC,TEST登録：Buck-IC焼損確認用データ
+D003,WSE,310D,2026-05,Coil,コイル内部に鉄粉噛み込みを確認
+D004,GSE,310D,2026-05,Coil,サンプル評価用として登録
+D005,MELMB,J69P,2026-06,NTF,現品確認の結果、症状再現せず
+D006,WSE,310D,2026-06,Coil,重複登録のため集計対象外
+D007,SUS,J69P,2026-06,Buck-IC,Buck-ICのHS-FET損傷を確認
+D008,GSE,310D,2026-06,Coil,確認用：検査条件変更前の仮データ
+D009,MELMB,310D,2026-07,Coil,160Vインパルス検査で異常検出
+D010,SUS,J69P,2026-07,NTF,test memo only
+D011,WSE,310D,2026-07,Coil,転記ミスのため再登録予定
+D012,MELMB,J69P,2026-07,Buck-IC,Buck-IC再発疑いとして調査中
