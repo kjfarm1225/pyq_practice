@@ -1,0 +1,13 @@
+defect_id,site,model,occ_month,defect_category,defect_qty,comment
+D001,SUS,J69P,2026-04,Buck-IC,3,Buck-ICのHS-FET損傷を確認
+D002,SUS,J69P,2026-04,Coil,1,旧部品OLD-110で発生した過去データ
+D003,WSE,310D,2026-05,Coil,2,コイル内部に鉄粉噛み込みを確認
+D004,GSE,310D,2026-05,NTF,1,市場返却品を確認したが不具合再現せず
+D005,MELMB,J69P,2026-06,Buck-IC,4,OLD-220使用時の参考登録データ
+D006,WSE,310D,2026-06,Coil,3,160Vインパルス検査で異常検出
+D007,SUS,J69P,2026-06,NTF,1,現品確認の結果、症状再現せず
+D008,GSE,310D,2026-06,Coil,2,旧仕様OLD-110からの切替前データ
+D009,MELMB,310D,2026-07,Buck-IC,5,Buck-IC再発疑いとして調査中
+D010,WSE,J69P,2026-07,Coil,1,OLD-220評価時のメモ
+D011,SUS,310D,2026-07,Coil,2,コイル端子部に変色あり
+D012,MELMB,J69P,2026-07,NTF,1,ユーザー申告のみで現象確認できず
