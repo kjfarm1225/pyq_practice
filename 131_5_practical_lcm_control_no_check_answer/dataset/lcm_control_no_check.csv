@@ -1,0 +1,11 @@
+defect_id,site,customer,model,occ_month,control_no,defect_category,defect_qty,comment
+D001,SUS,Honda,J69P,2026-07,SUS-202607-001,Buck-IC,3,正式登録データ
+D002,WSE,Honda,310D,2026-07,WSE_202607_002,Coil,2,区切り文字がアンダーバー
+D003,GSE,Mitsubishi,310D,2026-07,GSE-2026-07-003,NTF,1,年月の間にハイフンあり
+D004,MELMB,Honda,J69P,2026-07,MELMB-202607-004,Buck-IC,4,拠点コードが5文字
+D005,SUS,Mitsubishi,J69P,2026-07,SUS-202607-ABC,Coil,1,末尾が数字ではない
+D006,WSE,Honda,310D,2026-07,WSE-202607-005 メモあり,Coil,2,末尾に余計な文字あり
+D007,GSE,Honda,310D,2026-07,GSE-202607-006,NTF,1,正式登録データ
+D008,SUS,Honda,J69P,2026-08,SUS-202608-007,Buck-IC,2,正式登録データ
+D009,WSE,Mitsubishi,310D,2026-08,WSE-202608-8,Coil,3,連番が3桁ではない
+D010,GSE,Honda,J69P,2026-08,GSE-202608-009,Buck-IC,5,正式登録データ
