@@ -1,0 +1,17 @@
+defect_id,site,customer,model,occ_month,defect_category,defect_qty,cm_status,comment
+D001,SUS,Honda,J69P,2026-04,Buck-IC,3,調査中,Buck-ICのHS-FET損傷を確認。現行量産品。
+D002,SUS,Honda,J69P,2026-04,Coil,1,対象外,旧仕様OLD-110で発生した切替前データ。
+D003,WSE,Mitsubishi,310D,2026-04,Coil,2,対策中,コイル内部に鉄粉噛み込みを確認。
+D004,GSE,Honda,310D,2026-05,NTF,1,調査中,市場返却品を確認したが不具合再現せず。
+D005,MELMB,Honda,J69P,2026-05,Buck-IC,4,対象外,OLD-220使用時の参考登録データ。
+D006,WSE,Honda,310D,2026-05,Coil,3,対策済,160Vインパルス検査で異常検出。
+D007,SUS,Mitsubishi,J69P,2026-06,NTF,1,調査中,現品確認の結果、症状再現せず。
+D008,GSE,Honda,310D,2026-06,Coil,2,対象外,旧仕様OLD-110からの切替前データ。
+D009,MELMB,Honda,310D,2026-06,Buck-IC,5,調査中,Buck-IC再発疑いとして調査中。
+D010,WSE,Mitsubishi,J69P,2026-06,Coil,1,対象外,OLD-220評価時のメモ。
+D011,SUS,Honda,310D,2026-07,Coil,2,対策中,コイル端子部に変色あり。
+D012,MELMB,Honda,J69P,2026-07,NTF,1,調査中,ユーザー申告のみで現象確認できず。
+D013,GSE,Mitsubishi,310D,2026-07,Buck-IC,2,調査中,OLD-1100系ではなく現行品でのBuck-IC異常。
+D014,WSE,Honda,310D,2026-07,Coil,2,対策中,220V印加試験後に外観異常を確認。
+D015,SUS,Honda,J69P,2026-07,Buck-IC,1,対象外,old-220の過去評価データとして登録。
+D016,MELMB,Mitsubishi,310D,2026-07,Coil,3,対策済,コイル巻線部の傷を確認。
