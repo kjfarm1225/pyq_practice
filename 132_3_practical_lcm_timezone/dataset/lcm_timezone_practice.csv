@@ -1,0 +1,19 @@
+﻿defect_id,site,customer,model,defect_category,defect_qty,occ_at_utc,status,comment
+D001,SUS,Honda,J69P,Buck-IC,3,2026-07-01 00:15:00,回答済,日本時間の朝に確認
+D002,WSE,Honda,310D,Coil,1,2026-07-01 05:30:00,回答済,午後発生として集計
+D003,GSE,Mitsubishi,310D,NTF,1,2026-07-01 14:10:00,回答済,日本時間では深夜帯
+D004,META,Honda,J69P,Buck-IC,2,2026/07/02 15:40,調査中,スラッシュ区切り
+D005,MEAX,Mitsubishi,310D,Coil,4,2026-07-02 23:20:00,回答済,日本時間では翌日
+D006,MELAC,Honda,3BVT,NTF,1,2026-07-03 09:45:00,回答済,夕方発生
+D007,SUS,Honda,36WA,Buck-IC,5,2026-07-03 12:30,回答済,分までの表記
+D008,WSE,Mitsubishi,J69P,Coil,2,2026-07-04 02:10:00,調査中,午前発生
+D009,GSE,Honda,310D,Coil,3,2026-07-04 22:55:00,回答済,翌朝発生
+D010,META,Mitsubishi,36WA,Buck-IC,2,2026-07-05 06:30:00,回答済,午後発生
+D011,MEAX,Honda,3BVT,Coil,1,2026-07-05 13:10:00,調査中,夜間発生
+D012,MELAC,Mitsubishi,J69P,NTF,1,2026-07-06 01:25:00,回答済,午前発生
+D013,SUS,Honda,310D,Coil,2,2026-07-06 15:50:00,回答済,日本時間では翌日深夜
+D014,WSE,Mitsubishi,36WA,Buck-IC,4,2026-07-07 03:40:00,回答済,昼発生
+D015,GSE,Honda,J69P,NTF,1,,未回答,発生日時が空欄
+D016,META,Honda,3BVT,Coil,2,2026-13-01 10:00:00,調査中,不正な月
+D017,MEAX,Mitsubishi,310D,Buck-IC,0,2026-07-08 11:00:00,調査中,数量0の確認対象
+D018,MELAC,Honda,36WA,Coil,未入力,2026-07-08 16:20:00,調査中,数量未入力
