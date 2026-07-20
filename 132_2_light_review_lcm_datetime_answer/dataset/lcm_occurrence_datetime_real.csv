@@ -1,0 +1,19 @@
+﻿defect_id,site,customer,model,defect_category,defect_qty,occ_at,cm_status
+D001,SUS,Honda,J69P,Buck-IC,3,2026-07-01 09:15:00+09:00,回答済
+D002,WSE,Honda,310D,Coil,1,2026-07-01 14:30:00+09:00,回答済
+D003,GSE,Mitsubishi,310D,NTF,1,2026-07-02 23:10:00+09:00,回答済
+D004,MELMB,Honda,J69P,Buck-IC,2,2026/07/03 00:40,調査中
+D005,SUS,Mitsubishi,310D,Coil,4,2026/07/04 08:20,回答済
+D006,WSE,Honda,J69P,NTF,1,2026-07-04 18:45,回答済
+D007,GSE,Honda,310D,Buck-IC,5,2026-07-05 21:30,回答済
+D008,MELMB,Mitsubishi,J69P,Coil,2,2026-07-06 11:10:00+09:00,調査中
+D009,SUS,Honda,310D,Coil,3,2026-08-01 07:55:00+09:00,回答済
+D010,WSE,Mitsubishi,310D,Buck-IC,2,2026-08-02 15:30:00+09:00,回答済
+D011,GSE,Honda,J69P,Coil,1,2026-08-03 22:10:00+09:00,調査中
+D012,SUS,Mitsubishi,J69P,NTF,1,2026-08-04 10:25:00+09:00,回答済
+D013,WSE,Honda,310D,Coil,2,2026-08-05 13:40:00+09:00,回答済
+D014,GSE,Mitsubishi,310D,Buck-IC,4,2026-08-06 19:50:00+09:00,回答済
+D015,MELMB,Honda,J69P,NTF,1,2026-08-07 01:20:00+09:00,調査中
+D016,SUS,Honda,J69P,Coil,未入力,2026-08-08 09:00:00+09:00,調査中
+D017,WSE,Mitsubishi,310D,Buck-IC,2,,未回答
+D018,GSE,Honda,J69P,NTF,1,2026-13-01 10:00:00,調査中
